@@ -1,0 +1,36 @@
+<!--pages/home/home.wxml-->
+
+<view class='theme-bg'></view>
+<scroll-view>
+  <view class='scroll-header'>
+    <view class='barcode-container'>
+      <view class='barcode-view'>
+        <text class='barcode-title'>我的会员卡</text>
+        <image class='barcode-image' src='data:image/jpeg;base64,{{barcodeImage}}'></image>
+        <text class='barcode-number'>123456789</text>
+      </view>
+    </view>
+    <view class='action-container'>
+      <view class='bg-circle'></view>
+      <view class='action-viewholder'>
+        <view class='action-view'>
+          <image class='action-image' src='../../images/ic_home_coffee.png'></image>
+          <text class='action-text'>简咖啡</text>
+        </view>
+        <view class='action-view'>
+          <image class='action-image' src='../../images/ic_home_deliver.png'></image>
+          <text class='action-text'>到店自提</text>
+        </view>
+
+        <view class='action-view'>
+          <image class='action-image' src='../../images/ic_home_shop.png'></image>
+          <text class='action-text'>门店</text>
+        </view>
+      </view>
+
+    </view>
+  </view>
+  <view class='scroll-content' wx:for="{{imgs}}" wx:key="*this">
+    <image class='scroll-item' mode='widthFix' src="{{item}}"></image>
+  </view>
+</scroll-view>
