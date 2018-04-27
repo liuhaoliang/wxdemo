@@ -84,7 +84,7 @@ scroll-view {
 .action-view {
     width: 210rpx;
   height: 210rpx;
-  z-index: 9999;
+  z-index: 99;
   background: #fff;
   display: flex;
   flex-direction: column;

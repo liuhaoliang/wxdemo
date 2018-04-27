@@ -3,7 +3,7 @@ const userinfo = require("./utils/userinfo");
 
 App({
   onLaunch: function () {
-    userinfo.getUserInfo();
+    // userinfo.getUserInfo();
   },
   globalData: {
     userInfo: null

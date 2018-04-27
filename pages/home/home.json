@@ -1,5 +1,9 @@
 {
   "navigationBarTitleText": "简24",
   "enablePullDownRefresh": false,
-  "navigationBarBackgroundColor": "#FFD200"
+  "navigationBarBackgroundColor": "#FFD200",
+  "usingComponents": {
+    "member-card": "../../components/member-card/member-card",
+    "jian-dialog": "../../components/jian-dialog/jian-dialog"
+  }
 }

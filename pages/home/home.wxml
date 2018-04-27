@@ -31,6 +31,16 @@
     </view>
   </view>
   <view class='scroll-content' wx:for="{{imgs}}" wx:key="*this">
-    <image class='scroll-item' mode='widthFix' src="{{item}}"></image>
+    <image class='scroll-item' data-index="{{index}}"  catchtap="goToPage" mode='widthFix' src="{{item}}"></image>
   </view>
+  <jian-dialog id='dialog' 
+      title='我是标题' 
+      content='恭喜你，学会了小程序组件' 
+      cancelText='知道了' 
+      confirm='谢谢你'
+      bind:cancelEvent="_cancelEvent"  
+      bind:confirmEvent="_confirmEvent">
+    </jian-dialog>
 </scroll-view>
+
+
