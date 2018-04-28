@@ -1,7 +1,7 @@
 <!--components/member-card.wxml-->
 <view class='member_card_container' hidden="{{!isShow}}">
-  <view class='wx-mask'>
-    <view class='content'>
+  <view class='wx-mask' bindtap='hide'>
+    <view class='content' catchtap='show'>
        <view class='content-title'>
          <image class='content-title-image' src='../../images/member-card-title.png'></image>
         <text class='content-title-text'>我的会员卡</text> 

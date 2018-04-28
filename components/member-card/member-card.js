@@ -23,6 +23,17 @@ Component({
    * 组件的方法列表
    */
   methods: {
-
+    //隐藏弹框
+    hide() {
+      this.setData({
+        isShow: !this.data.isShow
+      })
+    },
+    //展示弹框
+    show() {
+      // this.setData({
+      //   isShow: !this.data.isShow
+      // })
+    }
   }
 })

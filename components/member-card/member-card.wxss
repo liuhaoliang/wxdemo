@@ -53,16 +53,20 @@
   top: 0;
 }
 
-.content-qrcode{
+.content-qrcode {
   width: 272rpx;
-    height: 272rpx;
-    margin-top: 96rpx;
-
-
+  height: 272rpx;
+  margin-top: 96rpx;
 }
 
-.content-member-code{
-      margin-top: 32rpx;
-        font-size: 28rpx;
+.content-member-code {
+  margin-top: 32rpx;
+  font-size: 28rpx;
+  color: #828c96;
+}
 
+.content-footer {
+  color: #a0aab4;
+  font-size: 20rpx;
+  margin-top: 50rpx;
 }
