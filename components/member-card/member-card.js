@@ -34,6 +34,9 @@ Component({
       // this.setData({
       //   isShow: !this.data.isShow
       // })
+    },
+    preventMove(){
+      
     }
   }
 })

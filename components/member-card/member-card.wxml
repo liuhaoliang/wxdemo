@@ -1,5 +1,5 @@
 <!--components/member-card.wxml-->
-<view class='member_card_container' hidden="{{!isShow}}">
+<view class='member_card_container' hidden="{{!isShow}}" catchtouchmove='preventMove'>
   <view class='wx-mask' bindtap='hide'>
     <view class='content' catchtap='show'>
        <view class='content-title'>
