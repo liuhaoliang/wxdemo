@@ -23,8 +23,6 @@ Page({
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-    //获得dialog组件
-    this.dialog = this.selectComponent("#dialog");
   },
 
   /**
@@ -72,6 +70,5 @@ Page({
   goToPage: function(e) {
     const index = e.currentTarget.dataset.index;
     console.log(index);
-    this.dialog.showDialog();
   }
 })

@@ -1,1 +1,68 @@
 /* components/member-card.wxss */
+
+.wx-mask {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  width: 436rpx;
+  height: 654rpx;
+  background: #fff;
+  border-radius: 16rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.content-title {
+  position: relative;
+  align-self: flex-end;
+  width: 306rpx;
+  height: 94rpx;
+}
+
+.content-title-image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 306rpx;
+  height: 94rpx;
+}
+
+.content-title-text {
+  position: absolute;
+  width: 200rpx;
+  font-size: 34rpx;
+  font-weight: bold;
+  height: 94rpx;
+  margin: 25rpx;
+  color: white;
+  text-align: center;
+  right: 0;
+  top: 0;
+}
+
+.content-qrcode{
+  width: 272rpx;
+    height: 272rpx;
+    margin-top: 96rpx;
+
+
+}
+
+.content-member-code{
+      margin-top: 32rpx;
+        font-size: 28rpx;
+
+}

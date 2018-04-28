@@ -1,2 +1,15 @@
 <!--components/member-card.wxml-->
-<text>components/member-card.wxml</text>
+<view class='member_card_container' hidden="{{!isShow}}">
+  <view class='wx-mask'>
+    <view class='content'>
+       <view class='content-title'>
+         <image class='content-title-image' src='../../images/member-card-title.png'></image>
+        <text class='content-title-text'>我的会员卡</text> 
+      </view>
+      <image class='content-qrcode' src='../../images/member_qrcode.png'></image>
+      <text class='content-member-code'>1234567890</text>
+      <text class='content-footer'>每分钟自动更新</text> 
+    </view>
+    <!-- <image src='../../images/ic_car_close.png'></image> -->
+  </view>
+</view>

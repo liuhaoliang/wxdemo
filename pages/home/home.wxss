@@ -60,7 +60,7 @@ scroll-view {
   left: 0rpx;
   bottom: 28rpx;
   right: 0rpx;
-   overflow: hidden; 
+  overflow: hidden;
 }
 
 .bg-circle {
@@ -70,7 +70,7 @@ scroll-view {
   border-radius: 100%;
   background: #ffd200;
   height: 110rpx;
-  width: 100%;  
+  width: 100%;
 }
 
 .action-viewholder {
@@ -82,7 +82,7 @@ scroll-view {
 }
 
 .action-view {
-    width: 210rpx;
+  width: 210rpx;
   height: 210rpx;
   z-index: 99;
   background: #fff;
